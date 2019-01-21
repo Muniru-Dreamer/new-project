@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		
+.container {
+	width: 800px;
+	overflow: hidden;
+}
+#sliderbox {
+	position: relative;
+	width: 3200px;
+	animation-name: slideranimation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img {
+	float: left;
+}
+@keyframes slideranimation {
+	0% {
+		left: 0px;
+	}
+	20% /* 4 second*/ 
+	{
+		left: 0px; 
+	}
+	25% /* 5 second*/ 
+	{
+		left: -800px;
+	}
+	45% /* 9 second*/ 
+	{
+		left: -800px;
+	}
+	50% /* 10 second*/  
+	{
+	left: -1600px;
+	}
+	70% /* 14 second*/ 
+	
+	{
+	left:  -1600px;
+	}
+	
+	
+
+}
+	</style>
+</head>
+<body>
+<header>
+	<a href="index.html" class="header-brand">mmute</a>
+	<nav>
+		<ul>
+			<li><a href="portfolio.html">portfolio</a></li>
+			<li><a href="about.html">about</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+			<a href="cases.html" class="header-cases">cases</a>
+	</nav>
+</header>
+<main>
+	<div class="container">
+		<div id="sliderbox">
+				<div class="vertical-center">
+					<img src="girl.jpg">
+					<img src="Hassana.jpg">
+					<img src="Hianawu.jpg">
+				</div>
+		</div>
+	</div>
+	<div class="wrapper">
+			<section class="index-links">
+				<a href="cases.html">
+					<div class="index-boxlink-square">
+						<h3>Cases</h3>
+					</div>
+				</a>
+
+				<a href="portolio.html">
+				<div class="index-boxlink-rectangle">
+					<h3>Portfoloi</h3>
+				</div>
+				</a>
+
+				<a href="mmuts.html">
+				<div class="index-boxlink-square">
+					<h3>mmuts</h3>
+				</div>
+				</a>
+
+				<a href="youtube.html">
+				<div class="index-boxlink-rectangle">
+					<h3>Youtube</h3>
+				</div>
+				</a>
+
+				<a href="about.html">
+				<div class="index-boxlink-square">
+					<h3>About</h3>
+				</div>
+				</a>
+
+				<a href="contact.html">
+				<div class="index-boxlink-square">
+					<h3>Contact</h3>
+				</div>
+				</a>
+			</section>
+		</main>
+		<footer>
+		<ul class="footer-links-main">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Cases</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">About me</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<ul class="footer-links-cases">
+			<li><p>Latest Cases</p></li>
+			<li><a href="#">Welcome to Vlick interactive guys</a></li>
+			<li><a href="#">Welcome to Vlick interactive guys</a></li>
+			<li><a href="#">Welcome to Vlick interactive guys</a></li>
+			<li><a href="#">Welcome to Vlick interactive guys</a></li>
+		</ul>
+		<div class="footer-sm">
+			<a href="#">
+				<img src="youtube.png" alt="youtube-icon">
+			</a>
+			<a href="#">
+				<img src="twitter.png" alt="twitter-icon">
+			</a>
+			<a href="#">
+				<img src="facebook.png" alt="facebook-icon">
+			</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
